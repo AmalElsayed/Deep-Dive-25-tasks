@@ -1,0 +1,237 @@
+:root{
+    --primary-color: #1A7BFF;
+    --secondary-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.Justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 60%;
+    padding: 15px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar li{
+    margin: 0 20px;
+}
+.navbar li a{
+    color:var(--secondary-color);
+    font-size: 16px;
+
+}
+.buttons{
+    margin: 0 0 0 100px;
+    padding: 60px 0;
+}
+.sign{
+    background-color: transparent;
+    border: 1px var(--primary-color) solid;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: var(--primary-color);
+    font-size: 16px;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+.sign:hover{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.log{
+    background-color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 16px;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+.log:hover{
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+
+.digital-agency{
+    margin:90px 0;
+}
+h1{
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p{
+    color: #B6B6B6;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.digital-agency h2{
+    width: 55%;
+}
+.digital-agency p{
+    width: 55%;
+}
+.digital{
+    width: 50%;
+}
+.digital img{
+    width: 90%;
+}
+.brands{
+    margin: 50px 0 150px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    border: 2px #1F1F1F solid;
+    margin-right: 40px;
+    border-radius: 7px;
+    padding: 20px 10px;
+    
+}
+.service i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.discover{
+    margin: 150px 0;
+}
+.discover img{
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 80px;
+    border: 2px #000 solid;
+    border-radius: 15px;
+
+}
+.f-challenge{
+    width: 41%;
+}
+.challenges i{
+    width: 109px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 15px;
+
+}
+.challenges>div{
+        margin-bottom: 20px;
+}
+.challenges>div h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.challenges>div p{
+    font-size: 16px;
+    width: 77%;
+}
+.choose img{
+    width: 500px;
+    border-radius: 10px;
+}
+.choose{
+    margin-bottom: 150px;
+}
+.foot{
+    width: 60%;
+    margin-right: 0;
+    padding: 0 150px 0 0;
+}
+.foot p{
+    color: #000;
+    font-size: 20px;
+}
+.foot i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.links{
+        margin-right: 102px;
+}
+.links h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 50px 0 33px;
+}
+.links a{
+    display: block;
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 20px;
+}
+.office{
+    width: 40%;
+}
+.office h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 46px 0 33px;
+}
+.office p{
+    color: #000;
+    font-size: 20px;
+}
+.hr{
+    width: 90%;
+    margin: auto;
+}
+.copyright{
+    color: #000;
+    text-align: center;
+    margin: 20px 0;
+}
