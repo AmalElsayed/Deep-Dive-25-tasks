@@ -130,7 +130,7 @@ p{
     padding: 20px 10px;
     
 }
-.service i{
+.service .service-i i{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -140,6 +140,42 @@ p{
     justify-content: center;
     align-items: center;
     font-size: 25px;
+}
+.service-blue{
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    color: #fff;
+}
+.service-i{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+.service h3{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 22px;
+}
+.service p{
+    color: #171624;
+    font-size: 17px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    text-align: center;
+}
+.arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-right i{
+        width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .discover{
     margin: 150px 0;
