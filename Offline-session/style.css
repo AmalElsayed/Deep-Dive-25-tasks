@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.BR-Arch{
+    padding: 20px 0;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 100000;
+}
+.logo{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.BR{
+    font-weight: 900;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar a{
+    margin-left: 40px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+
+.home{
+    background-image: url('/image/IMG-20250815-WA0004.jpg');
+    
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+    padding-top: 350px;
+}
+.BR-home{
+    font-size: 50px;
+    margin-right: 40px;
+    background-color: black;
+    color: white ;
+    opacity: 70%;
+    padding: 10px 20px;
+}
+.project{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+h1{
+    margin: 40px 0 20px;
+}
+hr{
+    margin-bottom: 40px;
+}
+.custom-margin{
+    margin-top: 17px;
+}
+.p-about{
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+.card h2{
+    font-weight: 300;
+    margin: 10px 0
+}
+.card h3{
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.card button{
+    padding: 10px 135px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 500ms ease-in;
+}
+.card button:hover{
+    background-color: rgba(128, 128, 128, 0.893);
+}
+
+.contact h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.contact form input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.contact form button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 40px;
+    transition: 500ms ease-in;
+}
+.contact form button:hover{
+    background-color: gray;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+.footer h5{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.footer h5 a{
+    color: white;
+    text-decoration: underline;
+    margin-left: 11px;
+    transition: 300ms ease-in;
+    font-size: 18px;
+}
+.footer h5 a:hover{
+    color: green;
+}
