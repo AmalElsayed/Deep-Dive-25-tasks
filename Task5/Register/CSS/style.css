@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#message {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e6f7ff;
+    border: 2px solid #0F4D68;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0F4D68;
+    display: none;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+.register h1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.register p{
+    margin: 10px 0 25px;
+    font-size: 16px;
+    color: #B7B7B7;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 150px;
+}
+.input label{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+i{
+    font-size: 25px;
+    color: #B7B7B7;
+}
+input{
+    font-size: 25px;
+    padding: 15px 108px;
+    border: #B7B7B7 1px solid;
+    border-radius: 8px;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.button-register{
+    width: 100%;
+    padding: 17px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #0F4D68;
+    color: white;
+    font-size: 23px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 25px 0;
+    position: relative;
+}
+h2::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 1px;
+    background: #B7B7B7;
+    width: 45%;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 1px;
+    background: #B7B7B7;
+    width: 45%;
+}
+.google-button{
+    width: 100%;
+    background-color: white;
+    border: #000 1px solid;
+    border-radius: 8px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    z-index: 100;
+}
+.google-button img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form-container{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.form-container::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #116f97;
+    border-radius: 50%;
+    top: 50%;
+    left: -240px;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.form-container:after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #025e85c9;
+    border-radius: 50%;
+    bottom: -282px;
+    right: -100px;
+    z-index: -1;
+
+}
