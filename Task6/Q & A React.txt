@@ -1,0 +1,29 @@
+1- What is React?
+ React is a JavaScript library for building user interfaces.
+ It allows me to create small reusable components and combine them to build complete pages.
+
+========================================================================================================
+
+2- Why we use React?
+ we use React because it makes writing code easier instead of dealing directly with the DOM.
+ It also improves performance with the Virtual DOM and helps me organize and reuse my code.
+
+========================================================================================================
+
+3- React is a framework or library? and why?
+ React is a library, not a framework. The reason is that React only focuses on the UI part. 
+ It doesn’t force me to use a specific structure for the whole project.
+ I can choose other libraries for things like routing or state management.
+
+========================================================================================================
+
+4- When we use React?
+ I use React when I’m working on medium or large projects that need a dynamic UI,
+ like e-commerce websites or dashboards. 
+ But if the project is small and static, I don’t really need React.
+
+
+
+
+
+
