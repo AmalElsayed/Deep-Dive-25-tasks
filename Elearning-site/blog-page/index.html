@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <div class="container">
+                <div class="d-flex justify-between">
+                    <div class="logo">
+                        <div class="diamond">
+                            <span class="logo-text">TOTC</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <div>
+                        <button class="login"><a href="/register-page/login.html" target="_blank">Login</a></button>
+                        <button class="sign"><a href="">Sign Up</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs">
+        <div class="container">
+            <div class="blog">
+                <h2>Related Blog</h2>
+                <div class="blog-container" id="blogContainer">
+
+                </div>
+
+                <div class="scroll-buttons">
+                    <button onclick="goBlogsLeft()"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button onclick="goBlogsRight()"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="articles-section">
+            <h2>Marketing Articles</h2>
+            <div id="articlesContainer" class="articles-scroll">
+
+            </div>
+        </div>
+
+        <div class="scroll-buttons">
+            <button onclick="goArticlesLeft()"><i class="fa-solid fa-arrow-left"></i></button>
+            <button onclick="goArticlesRight()"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="diamond">
+                    <span class="logo-text">TOTC</span>
+                </div>
+                <div class="footer-title">
+                    Virtual Class for Zoom
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Careers</a>
+                <span>|</span>
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+            <div class="footer-copy">
+                © 2021 Class Technologies Inc.
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
